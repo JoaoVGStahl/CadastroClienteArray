@@ -10,8 +10,4 @@ function SalvarDadosObjeto(){
         "Telefone" : document.getElementById('txtTelefone').value,
         "Celular" : document.getElementById('txtCelular').value
     }
-    InserirObjetoNoArray()
-}
-function InserirObjetoNoArray(){
-    ArrayCadastro.push(ObjCadastro)
 }
