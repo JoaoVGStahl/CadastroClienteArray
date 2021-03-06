@@ -14,4 +14,12 @@ function SalvarDadosObjeto(){
 }
 function InserirObjetoNoArray(){
     ArrayCadastro.push(ObjCadastro)
+    ExibirDadosDoArrayNaTabela()
+}
+function ExibirDadosDoArrayNaTabela(){
+    
+    let LinhaArrayParaTabela = ''
+
+    ArrayCadastro.forEach(function(elemento){
+    })
 }
